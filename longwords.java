@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+//Kaylah Tan
 
 public class FileParser {
     public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class FileParser {
   Scanner fReader = null;
 
    try {
-   File f = new File("hamlet.txt");
+   File f = new File("63782-0.txt");
    fReader = new Scanner(f);
 
    while (fReader.hasNextLine()) {
